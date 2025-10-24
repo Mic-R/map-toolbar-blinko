@@ -1,0 +1,14 @@
+{
+  "location": "Location",
+  "map": {
+    "loading": "Loading...",
+    "confirm": "Confirm",
+    "gettingLocation": "Getting...",
+    "unnamed": "Unnamed Location",
+    "locationPoint": "Location ({{lat}},{{lng}})",
+    "browserNotSupport": "Browser does not support geolocation",
+    "cannotGetLocation": "Cannot get location information",
+    "saveLocation": "Save Location",
+    "clear": "Clear"
+  }
+} 
