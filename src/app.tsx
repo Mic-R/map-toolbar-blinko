@@ -15,7 +15,7 @@ import { Style, Circle, Fill, Stroke } from "ol/style";
 import { defaults as defaultControls } from "ol/control";
 import ZoomControl from "ol/control/Zoom";
 import { render } from "preact";
-import { LocationRender } from "./locationRender";
+import { LocationCardRender, LocationRender } from "./locationRender";
 
 // Define the location type
 interface Location {
@@ -260,7 +260,7 @@ export function App({
 
       // Set up event listener to update footer after note is saved
       window.Blinko.eventBus.once("upsertNote", () => {
-        addLocationFooter(null);
+        addLocationFooter(locationInfo);
       });
     }
   };
